@@ -19,6 +19,9 @@ Source code for the portfolio page can be found here: [HTML](https://github.com/
 
 ![PassGenGif](https://github.com/IVignollesJeong/password-generator/assets/131202032/02e17e16-0520-44db-abc9-d6a6281e7bd8)
 
+
+[Password Generator](https://ivignollesjeong.github.io/password-generator/)
+
 The application functions as follows:
 
 - User is presented with an empty text box and "Generate Password button" on page initialization.
