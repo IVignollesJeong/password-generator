@@ -1,6 +1,5 @@
-// Assignment Code
 var generateBtn = document.querySelector("#generate");
-
+// special, numerical, lowercase, uppercase array values
 var specialCharacters = ['@', '%', '+', '\\', '/', '`', '!', '#', '$', '^', '?', ':', ',', ')', '(', '}', '{', ']', '[', '~', '_', '-', '.'];
 var numericCharacters = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
 var lowerCasedCharacters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
@@ -91,9 +90,6 @@ function generatePassword() {
     possibleCharacters = possibleCharacters.concat(specialCharacters);
     guaranteedCharacters.push(getRandom(specialCharacters));
   }
-
-  
-
 
     // Transform the result into a string and pass into writePassword
     return result.join('');
